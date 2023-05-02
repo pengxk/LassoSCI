@@ -20,5 +20,6 @@
 # Line179-189: "lasso_mod_out" in the code gives the predicted Y value of the training and testing set; "lasso_mod_out2" gives the predicted Y value of the validation set.
 
 
+
 ## Then run the file "1000penalties train.R" if you need to calculate a large number of penalties at once and summarize the number of variables and R^2 of the model
 
