@@ -15,8 +15,9 @@
 ## First run the file "LASSO SCI.R"
 # Line12: Change CFPD into the dataset of your training and testing set. The input form is ".csv".
 # Line13: Change CFPD into the dataset of your training and testing set. The input form is ".csv".
-# Line75-81: You can change best_penalty or best_se_penalty into the penalty you want. The penalty before the change is the best penalty automatically selected by the code
+# Line75-81: You can change best_penalty or best_se_penalty into the penalty you want. The penalty before the change is the best penalty automatically selected by the code.
 # Line136: The code "var_imf" give the Variables importance score of all variables.
+# Line 157: The name of the variable selected by the LASSO needs to be filled in after "lambda", otherwise this part of the code will not run.
 # Line179-189: "lasso_mod_out" in the code gives the predicted Y value of the training and testing set; "lasso_mod_out2" gives the predicted Y value of the validation set.
 
 
