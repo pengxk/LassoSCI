@@ -152,8 +152,8 @@ coefs_lambdas <-
   select(lambda, everything(), -`(Intercept)`) 
 
 ###add
-m<-list(v[v$estimate!=0,][,1])
 
+#The name of the variable selected by the LASSO needs to be filled in "???" after "lambda"
 coefs_lambdas <- coefs_lambdas %>% select(lambda,???)%>% 
   pivot_longer(cols = -lambda, 
                names_to = "term", 
